@@ -11,10 +11,18 @@ A full-stack, secure management portal built to handle academic workflows and ev
 ## 🚀 Key Technical Features
 * **Dynamic Multi-Role Authentication:** Secure PHP session-based login architecture that routes users dynamically to their tailored interfaces based on database privileges.
 * **Logistics & Workflow Automation:** A multi-step request/approval pipeline for scheduling seminars, tracking venue availability, and generating downloadable authorization documents.
-* **Full-Stack CRUD Operations:** Complete data management system for handling user profiles, location entries, and department-wide announcements.
 
-## 🛠️ Tech Stack
-* **Backend:** PHP (Server-side business logic, request handling, and session management)
-* **Frontend:** HTML5, CSS3, JavaScript (ES6) for an interactive, responsive user interface
-* **Database:** MySQL (Relational schema handling user roles, location mappings, and application states)
-* **Development Environment:** VS Code
+## 🔑 Quick Start & Test Accounts
+The included database schema comes pre-populated with multiple imaginary test accounts for each role to demonstrate the system's workflows. 
+
+To test the system, import the `.sql` file into your local MySQL environment, browse the users table, and log into **any** account using the global password below:
+
+* **Global Test Password (for all accounts):** `12345`
+
+### Dynamic Roles Available to Test:
+* 👤 **Admin Panel:** Log in with any Admin account to manage faculty, focal persons, and approve event locations.
+* 👔 **Focal Person Dashboard:** Log in with a coordinator account to post department news, request seminar venues, and download approved letters.
+* 🧑‍🏫 **Faculty Portal:** Log in with any instructor account to view active system announcements and dashboards.
+* 👨‍🎓 **Student Space:** Log in with any student account to update profiles and view academic tracking.
+
+*(Note: While the password used for rapid local testing is uniform, all credentials are safely stored within the database as secure cryptographic hashes.)*
