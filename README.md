@@ -1,5 +1,13 @@
 # Role-Based Learning Management & Seminar Coordination System
 
+### 👤 Developed by: Hamza Nadeem
+> **Project Type:** Individual Class Project  
+> **Development Environment:** VS Code | Full-Stack PHP & MySQL
+
+---
+
+A full-stack, secure management portal built to handle academic workflows and event logistics through precise, role-based access control. The system features a centralized data architecture where permissions are dynamically enforced across four distinct user roles, ensuring secure session handling and data integrity.
+
 A full-stack, secure management portal built to handle academic workflows and event logistics through precise, role-based access control. The system features a centralized data architecture where permissions are dynamically enforced across four distinct user roles, ensuring secure session handling and data integrity.
 
 ## 👥 Granular User Roles & Permissions
